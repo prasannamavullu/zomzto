@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zomato</title>
+    <!-- <link rel="stylesheet" href="./zomatttt.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+<style>
+    .container{
+    border: 1px solid black;
+    width: 100%;
+    height: 800px;
+}
+.main{
+    position: relative;
+    bottom: 550px;
+    left: 580px;
+    font-size:90px;
+    color: white;
+}
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+
+}
+.main:hover{
+    color: red;
+}
+.main1{
+    position: relative;
+    bottom: 550px;
+    left: 520px;
+    font-size:42px;
+    color: white; 
+}
+.option{
+    position: absolute;
+    left: 270px;
+    bottom: 660px;
+    font-size:28px;
+    color: chartreuse;
+    
+}
+.view{
+    color: chartreuse;
+}
+h1{
+    position: absolute;
+    color: red;
+}
+.top{
+    position: absolute;
+    left: 790px;
+top: 24px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.img1{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left:20px;
+    top:70px;
+    border-style: none;
+}
+.img11{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+}
+.img1n{
+    font-size: 25px;
+    padding: 10px;
+}
+.img2{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left:300px;
+   top: 880px;
+   border-style: none;
+}
+.img22{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+}
+.img2n{
+    font-size: 25px;
+    padding: 10px;
+}
+.img3{
+    border: 1px solid black;
+    width:250px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left:600px;
+    top: 880px;
+    border-style: none;
+}
+.img33{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;  
+}
+.img3n{
+    font-size: 25px;
+    padding: 10px;
+}
+.img4{
+    border: 1px solid black;
+    width:250px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left:900px;
+    top: 880px;
+    border-style: none;
+}
+.img44{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;  
+}
+.img4n{
+    font-size: 25px;
+    padding: 10px;
+
+}
+.img5{
+    border: 1px solid black;
+    width:250px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left:1200px;
+    top: 880px;
+    border-style: none;
+
+}
+.img55{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;  
+}
+.img5n{
+    font-size: 25px;
+    padding: 10px; 
+}
+.hy{
+    position: relative;
+    top: 100px;
+}
+.R1{
+    border: 1px solid black;
+    width: 350px;
+    height: 480px;
+    position: relative;
+    top: 90px;
+    border-radius: 10px;
+}
+.R2{
+    border: 1px solid black;
+    width: 350px;
+    height: 480px;
+    position: relative;
+    left: 370px;
+    bottom: 390px;
+    border-radius: 10px;
+
+} 
+.R3{
+    border: 1px solid black;
+    width: 350px;
+    height: 480px;
+    position: relative;
+      left: 740px;
+     bottom: 870px;  
+    border-radius: 10px;
+
+}
+.R4{
+    border: 1px solid black;
+    width: 350px;
+    height: 480px;
+   position: relative;
+   left: 1110px;
+   bottom: 1350px;
+   border-radius: 10px;
+}
+.R5{
+    border: 1px solid black;
+    width: 350px;
+    height: 480px;
+    position: relative;
+    bottom: 1300px;
+    border-radius: 10px;
+}
+.R6{
+    border: 1px solid black;
+    width: 350px;
+    height: 480px;
+    position: relative;
+    left: 370px;
+    bottom: 1780px;
+    border-radius: 10px;
+}
+.R7{
+    border: 1px solid black;
+    width: 350px;
+    height: 480px; 
+    position: relative;
+    left: 740px;
+    bottom: 2260px;
+    border-radius: 10px;
+}
+.R8{
+    border: 1px solid black;
+    width: 350px;
+    height: 480px; 
+    position: relative;
+    left: 1100px;
+    bottom: 2740px;
+    border-radius: 10px;
+ 
+}
+.R1:hover,.R2:hover,.R3:hover,.R4:hover,.R5:hover,.R6:hover,.R7:hover,.R8:hover{
+    color: crimson;
+
+}
+.p1{
+    border: 1px solid black;
+    width: 1100px;
+    height: 480px; 
+    position:relative;
+    top: 1680px;
+    right: 370px;
+
+}
+
+#p2{
+    border: 1px solid black;
+    width: 1480px;
+    height: 480px; 
+    position:relative;
+    top: 1680px;
+    left: -490px;
+
+    
+}
+.last1{
+    color: black;
+    font-size: 45px;
+    color: red;
+}
+#p2{
+    background-color: black;
+}
+.p3{
+    border: 1px solid black;
+    width: 280px;
+    height: 400px;
+text-decoration: none;
+}
+.psm:hover{
+    text-decoration: underline;
+    color: green;
+}
+.p4{
+    border: 1px solid black;
+    width: 280px;
+    height: 400px;
+    position: relative;
+    left: 290px;
+    bottom: 400px;
+}
+.p5{
+    text-decoration: none; 
+}
+.p6{
+    border: 1px solid black;
+    width: 280px;
+    height: 400px;
+    position: relative; 
+    left: 320px;
+    bottom: 260px;
+}
+.p7{
+    border: 1px solid black;
+    width: 280px;
+    height: 400px;
+    position: relative; 
+    left: 650px;
+    bottom: 660px;
+}
+.p8{
+    text-decoration: none;
+}
+.p9{
+    border: 1px solid black;
+    width: 230px;
+    height: 400px;
+    position: relative;
+    left: 980px;
+    bottom: 1060px;
+}
+.p3:hover,.p4:hover,.p5:hover,.p6:hover,.p7:hover,.p8:hover,.p9:hover{
+    color: green;
+    text-decoration: underline;
+
+}
+.img11:hover,.img22:hover,.img33:hover,.img44:hover,.img55:hover{
+    width: 230px;
+    height: 180px;
+}
+.view:hover{
+    color: aliceblue;
+    text-decoration: dashed;
+}
+    
+
+   
+    
+
+
+
+</style>
+  
+</head>
+<body> 
+   
+    <div class="container">
+        <h1 id="zomato">ZOMATO</h1>
+   
+        <div class="option">
+        <Label for="locations">Choose a location:</Label>
+        <select id="locations">
+         <option value="hyderabad">hyderabad</option>
+         <option value="vijayawada">vijayawada</option>
+         <option value="vizag">vizag</option>
+        </select>
+    </div>
+        <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="" height="800"width="100%">
+            <div class="main">ZOMATO</div>
+            <div class="main1">
+                <p>find the best restaurants,cafe's</p>
+                <p>and bars in INDIA</p>
+                <div id="p2">
+                    <span class="last1">zomato</span>
+                    <div class="p3">
+                        <a href="" class="psm">who we are</a><br>
+                        <a href="" class="psm">bolg</a><br>
+                        <a href="" class="psm">work with us</a><br>
+                        <a href="" class="psm">report fraud </a><br>
+                        <a href="" class="psm">contact us</a><br>
+                    </div>
+                    <div class="p4">
+                        <div class="p5">
+                        <a href="" class="psm">zomato</a><BR>
+                        <a href="" class="psm">blinkit</a><BR>
+                        <a href="" class="psm">feeding INDIA</a><BR>
+                        <a href="" class="psm">hyperpure</a><BR>
+                        <a href="" class="psm">zomaland</a><BR>
+                    </div>
+                    <div class="p6">
+                     <a href="" class="psm">for restaraumts</a><br>
+                     <a href="" class="psm">partner with us</a><br>
+            -         <a href="" class="psm">apps for you</a><br>
+                     <a href="" class="psm">for enterprises</a><br>
+                     <a href="" class="psm">zomato fir enterprise</a><br>
+                    </div>
+                    <div class="p7">
+                        <div class="p8">
+                        <a href="" class="psm">learn more</a><br>
+                        <a href="" class="psm">privacy</a><br>
+                        <a href="" class="psm">security</a><br>
+                        <a href="" class="psm">terms</a><br>
+                        <a href="" class="psm">sitemap</a><br>
+                    </div>
+                   
+                    </div>
+                    <div class="p9">
+                        <a href="">SOCIAL LINKS</a><br>
+                        <a href="" ><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="" ><i class='bx bxl-instagram'></i></a>
+                        <a href="" ><i class='bx bxl-twitter'></i></a>
+                        <a href=""></a> <i class='bx bxl-youtube'></i></a>
+                        <button>APPSTORE</button>
+                        <button>GOOGLE PAY</button>
+
+                    </div>
+                    </div>
+                </div>
+            
+            </div>
+         </div>
+         <div class="top">
+            <a href="" class="view">HOME</a>
+            <a href="" class="view">ADOUT US</a>
+            <a href="#order" class="view">OUR MENU</a>
+            <a href="#p2" class="view">CONTACT US</a>
+            </div>
+           
+                <div id="order">
+                <h1>INSPIRATION FOR YOUR FIRST ORDER</h1>
+                <div class="img1"><img src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png" alt="" class="img11"><span class="img1n">BIRYANI</span></div>
+                <div  class="img2"><img src="https://b.zmtcdn.com/data/o2_assets/8dc39742916ddc369ebeb91928391b931632716660.png" alt="" class="img22"><span class="img2n">DOSA</span></div>
+                <div class="img3" ><img src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png" alt="" class="img33"><span class="img3n"></span>PIZZA</div>
+                <div  class="img4"><img src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png" alt="" class="img44"><span class="img4n"></span>CHICKEN</div>
+                <div  class="img5"><img src="https://b.zmtcdn.com/data/o2_assets/52eb9796bb9bcf0eba64c643349e97211634401116.png" alt="" class="img55"><span class="img5n">THALI</span></div>
+            </div>
+             <h1 class="hy">HYDERABAD RESTARAUNTS</h1>
+    <div class="R1">
+        <img src="https://b.zmtcdn.com/data/pictures/chains/3/93043/3088315ab85025468fb789f2871bf131_o2_featured_v2.jpg?output-format=webp" alt=""width="350"height="370">
+        <h2>CAFE-BAHAR</h2>
+        <pre> biryani,chinese kababb     <i class='bx bx-rupee'></i>150 for one</pre>
+         <button><a href="https://www.zomato.com/hyderabad/cafe-bahar-basheer-bagh/order" class="now" target="_parent">buy now</a></button>
+        </div>
+        <div class="R2">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/2/94402/4e33710612ee658fe1025e32131f3af8_o2_featured_v2.jpg?output-format=webp" alt=""width="350" height="370">
+            <h2>4M BIRYANI HOUSE</h2>
+            <pre> biryani, north Indian  <i class='bx bx-rupee'></i>170 for one</pre>
+           <button> <a href="https://www.zomato.com/hyderabad/4m-biryani-house-musheerabad/order">4M</a></button>
+        </div>
+        <div class="R3">
+          <img src="https://b.zmtcdn.com/data/pictures/1/18866651/2a1b71eb8897b21fc6eff251fa61a432_o2_featured_v2.jpg" alt="" width="350" height="370" style="border-radius: 10px;">
+          <h2>AI FAROOJI SONU KABAB</h2>
+          <pre> chines  biverajes    <i class='bx bx-rupee'></i>150 for one</pre>
+          <button><a href="https://www.zomato.com/hyderabad/al-farooj-sonu-kabab-1-ghansi-bazaar/order">AI</a></button>
+        </div>
+        <div class="R4">
+         <img src="https://b.zmtcdn.com/data/pictures/chains/2/91662/a12c9ad1c89bcdc80728feb7b659db2c_o2_featured_v2.jpg" alt=""width="350"height="370">
+         <h2>PARIDASE BIRYANI</h2>
+         <pre>north Indian,ariban  <i class='bx bx-rupee'></i>200 for one</pre>
+         <button><a href="https://www.zomato.com/hyderabad/paradise-biryani-a-legend-since-1953-charminar/order"></a>DASE</button>
+        </div>
+        <div class="R5">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/9/91999/ac37ff595764daab5390ed616dc6e10d_o2_featured_v2.jpg" alt=""width="350" height="370">
+            <h2>PISTA HOUSE</h2>
+            <PRE> chines,asia     <i class='bx bx-rupee'></i>240 for one</pre>
+                <button><a href="https://www.zomato.com/hyderabad/pista-house-20-charminar/order"></a>PISTA</button>
+            </PRE>
+        </div>
+        <div class="R6">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/2/97262/07aae713b8d0d951eaa489aa3bd02005_o2_featured_v2.jpg" alt=""width="350" height="370">
+            <h2>MC DONALDS</h2>
+            <pre>chinnai,mumdai   <i class='bx bx-rupee'></i>240 for one</pre>
+            <button><a href="https://www.zomato.com/hyderabad/mcdonalds-2-abids/order">MC</a></button>
+        </div>
+        <div class="R7">
+            <img src="https://b.zmtcdn.com/data/pictures/9/95549/a0b2a026bafe19c317dad480ef355ad8_o2_featured_v2.jpg" alt=""width="350"height="370">
+            <h2>NEW KING SAFINA HOTEL</h2>
+            <PRE>panjb,yadawak  <i class='bx bx-rupee'></i>280 for one</PRE>
+            <button><a href="https://www.zomato.com/hyderabad/new-king-safina-hotel-1-charminar/order">KING</a></button>
+        </div>
+        
+        <div class="R8">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/9/20455809/c999313892a54cffcd5bfaa39e0da4e0_o2_featured_v2.jpg" alt=""width="350"height="370">
+            <h2>RED BUCKET BIRYANI</h2>
+            <PRE> punjab,kuraman ffss   <i class='bx bx-rupee'></i>460 for one</PRE>
+            <button><a href="https://www.zomato.com/hyderabad/paradise-biryani-a-legend-since-1953-charminar/order">RED</a></button>
+        </div>
+    
+     
+</body>
+
+</html>   
